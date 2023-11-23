@@ -91,6 +91,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        a {
+            &:hover {
+                svg path {
+                    fill: #FFF;
+                }
+            }
+        }
     }
     &__overlay {
         position: fixed;
