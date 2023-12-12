@@ -1,0 +1,266 @@
+@media (max-width: 1200px)
+    .menu
+        .menu_item
+            padding-right: 20px
+        .menu_link
+            font-size: 13px
+    .promo
+        .promo_header
+            font-size: 50px
+    .reasons
+        .reasons_block
+            align-items: flex-start
+            .reasons_descr
+                width: 322px
+    .mobile_item
+        width: 310px
+    .choice_white_bg 
+        .choice_subtext
+            padding-top: 240px
+    .footer
+        .right_icons
+            width: 25%
+        img
+            width: 30%
+@media (max-width: 991px)
+    .menu
+        .menu_item
+            padding-right: 10px
+        .menu_link
+            font-size: 10px
+    .subheader
+        .subheader_official
+            font-size: 11px
+        .subheader_phone
+            font-size: 18px
+        .subheader_btn
+            margin-top: 21px
+            width: 100%
+            height: 40px
+        img
+            width: 100%
+    .promo
+        .promo_header
+            font-size: 40px
+        .promo_subheader
+            font-size: 28px
+        .promo_descr
+            margin: 0 0
+            margin-top: 23px
+    .reasons
+        .reasons_block
+            align-items: center
+            flex-direction: column
+            .reasons_round
+                margin-right: 0
+            .reasons_descr
+                width: 322px
+                margin-top: 20px
+    .mobile_item
+        width: 230px
+        height: 245px
+    .title
+        font-size: 28px
+
+@media (max-width: 900px)
+    .footer 
+        .right_icons
+            flex-direction: column
+            position: absolute
+            top: 35px
+            width: 10%
+            display: flex
+            img
+                display: block
+                margin-right: 20px
+                width: 100%
+
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        flex-direction: column
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        .menu_item
+            padding-right: 0
+            margin: 10px
+            border: none
+            .menu_link
+                font-size: 19px
+                text-align: center
+    .hamburger
+            display: block
+            position: absolute
+            right: 10px
+            top: 50%
+            transform: translateY(-50%)
+            width: 26px
+            height: 12px
+            span
+                display: block
+                height: 2px
+                width: 100%
+                background-color: #fff
+                margin-bottom: 2px
+                transition: 0.5s all
+            &_active
+                span
+                    margin-bottom: -2px
+                    &:nth-child(1)
+                        transform: translateY(3px) rotate(-45deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                        transform: translateY(3px) rotate(45deg)
+    .subheader
+        .subheader_phone
+            display: block
+            font-weight: 400
+            font-size: 14px
+            text-align: center
+            text-transform: uppercase
+            color: #FFFFFF
+            margin-top: 12px
+        .subheader_btn            
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 6px
+        .xs-hidden
+            display: none
+        .xs-visible
+            display: block
+    .promo
+        .promo_header
+            font-size: 40px
+        .promo_subheader
+            font-size: 28px
+        .promo_descr
+            margin: 0 0
+            margin-top: 23px
+    .reasons
+        .reasons_block
+            align-items: center
+            flex-direction: column
+            .reasons_descr
+                width: 322px
+                margin-top: 20px
+                .reasons_subtitle
+                    text-align: center
+                .reasons_text
+                    text-align: center
+    .footer
+        .left_icons
+                display: flex
+                align-items: center
+                justify-content: center
+                position: absolute
+                left: 0px
+                top: 143px
+                width: 100%
+                margin: 0 auto 
+        .right_icons
+            display: flex
+            justify-content: space-between
+            width: auto
+            top: 190px
+            left: 21px
+            margin: 0 33px
+                
+@media (max-width: 575px)
+    nav
+        height: 30px
+    header
+        height: 30px
+    .subheader
+        top: 30px
+        height: 60px
+        .subheader_official
+            display: none
+        .subheader_logo
+            margin-top: 20px
+        .subheader_phone
+            font-weight: 400
+            font-size: 12px
+            text-align: center
+            text-transform: uppercase
+        .subheader_btn
+            margin-top: 6px
+            width: 110px
+            height: 22px
+            text-align: center
+            align-items: center
+            span
+                display: inline-block
+                transform: translateY(-25%)
+                font-size: 10px
+    .promo
+        min-height: 400px
+        padding: 93px 0 35px 0
+        .promo_descr
+            display: none
+        .promo_header
+            margin-top: 0
+            font-size: 30px
+            padding: 0 16px
+            line-height: 35px
+        .promo_subheader
+            font-size: 19px
+            margin-top: 33px
+            padding: 0 8px
+            line-height: 30px
+        .promo_btn
+            margin-top: 72px
+            width: 210px
+            height: 50px
+    .menu
+        width: 85%
+        .menu_item
+            width: 100%
+            text-align: center
+            padding: 5px 0
+            .menu_link
+                display: block
+    .reasons
+        padding: 22px 0 36px 0
+        .reasons_subtitle
+            font-size: 16px
+        .reasons_block
+            margin-top: 26px
+            .reasons_round
+                width: 100px
+                height: 100px
+            .reasons_descr
+                margin-top: 27px
+                width: 100%            
+    .title
+        font-size: 16px
+        margin-top: 15px
+        line-height: 16px
+    .footer
+        .left_icons
+                display: flex
+                align-items: center
+                justify-content: center
+                position: absolute
+                left: 0px
+                top: 143px
+                width: 100%
+                margin: 0 auto 
+        .right_icons
+            display: flex
+            justify-content: space-between
+            width: auto
+            top: 190px
+            left: 21px
+            margin: 0 33px      
